@@ -1,0 +1,16 @@
+<div class="inner-html">
+    <ul class="clearfix example-list">
+        <li>
+            <div class="list-item">
+                <app-tone></app-tone>
+            </div>
+        </li>
+        <li>
+            <div class="list-item">
+                {{province}}
+                <app-blockone [person]="AppPerson" (provinceOut)="recPro($event)" ></app-blockone>
+            </div>
+        </li>
+    </ul>
+</div>
+

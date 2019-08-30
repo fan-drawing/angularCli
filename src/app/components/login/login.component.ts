@@ -8,6 +8,8 @@ import {ActivatedRoute} from '@angular/router';
 export class LoginComponent implements OnInit {
   id = '';
   name = '';
+
+  public hello: any = 'Hello World!';
   constructor(private routerinfo: ActivatedRoute) { }
 
   ngOnInit() {

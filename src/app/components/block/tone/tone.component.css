@@ -1,0 +1,8 @@
+.tone{
+    width:200px;
+    height:200px;
+    background:#000;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
